@@ -7,6 +7,92 @@
     <link rel="stylesheet" href="./style.css" />
     <title>Side Navigation Bar</title>
   </head>
-  <body></body>
+  <body>
+    <div class="sidebar">
+      <div class="logo_content">
+        <div class="logo">
+          <box-icon name="hot" type="solid"></box-icon>
+          <div class="logo_name">Fire</div>
+        </div>
+        <box-icon name="menu" id="btn"></box-icon>
+      </div>
+      <ul class="nav_list">
+        <li>
+          <box-icon name="search"></box-icon>
+          <input type="text" placeholder="Search..." />
+          <!-- <span class="tooltip">Dashboard</span> -->
+        </li>
+        <li>
+          <a href="#"
+            ><box-icon name="grid-alt"></box-icon>
+            <span class="links_name">Dashboard</span></a
+          >
+          <!-- <span class="tooltip">Dashboard</span> -->
+        </li>
+        <li>
+          <a href="#"
+            ><box-icon name="user" type="solid"></box-icon>
+            <span class="links_name">User</span></a
+          >
+          <!-- <span class="tooltip">Dashboard</span> -->
+        </li>
+        <li>
+          <a href="#"
+            ><box-icon name='chat' ></box-icon>
+            <span class="links_name">Messages</span></a
+          >
+          <!-- <span class="tooltip">Dashboard</span> -->
+        <li>
+          <a href="#"
+            ><box-icon name="pie-chart-alt-2"></box-icon>
+            <span class="links_name">Analytics</span></a
+          >
+          <!-- <span class="tooltip">Dashboard</span> -->
+        </li>
+        <li>
+          <a href="#"
+            ><box-icon name="folder-open"></box-icon>
+            <span class="links_name">File Manager</span></a
+          >
+          <!-- <span class="tooltip">Dashboard</span> -->
+        </li>
+        <li>
+          <a href="#"
+            ><box-icon name="cart-alt"></box-icon>
+            <span class="links_name">Order</span></a
+          >
+          <!-- <span class="tooltip">Dashboard</span> -->
+        </li>
+        <li>
+          <a href="#"
+            ><box-icon name="heart" type="solid"></box-icon>
+            <span class="links_name">Saved</span></a
+          >
+          <!-- <span class="tooltip">Dashboard</span> -->
+        </li>
+        <li>
+          <a href="#"
+            ><box-icon name="cog"></box-icon>
+            <span class="links_name">Settings</span></a
+          >
+          <!-- <span class="tooltip">Dashboard</span> -->
+        </li>
+        </li>
+      </ul>
+      <div class="profile_content">
+          <div class="profile">
+              <div class="profile_details">
+                  <!-- <img src="./avatar.png" alt=""> -->
+                  <div class="name_job">
+                      <div class="name">Tran Tam</div>
+                      <div class="job">FE Dev</div>
+                  </div>
+              </div>
+              <box-icon name='log-out' ></box-icon>
+          </div>
+      </div>
+    </div>
+  </body>
   <script src="./script.js"></script>
+  <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
 </html>
